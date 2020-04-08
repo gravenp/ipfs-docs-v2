@@ -14,41 +14,37 @@ related:
 
 Like [Westeros](https://gameofthrones.fandom.com/wiki/Westeros), peer-to-peer (P2P) technology has experienced years-long winters and summers. There have been periods of great excitement and growth. Other times, P2P innovation has gone into hibernation.
 
-Tim Berners-Lee first envisioned the World Wide Web with P2P concepts. For various reasons, the web did not develop that way. Centralized, client-server architectures dominate today’s web.
+Tim Berners-Lee first envisioned the World Wide Web with P2P concepts. The web did not evolve true to that vision. Centralized, client-server architectures dominate today’s web.
 
 The [IPFS Project](https://github.com/ipfs/ipfs) aims to return the web to its P2P roots–making the web faster, safer, and more open.
 
 ## A P2P summer (1999~2003)
 
-In 1999, Napster took the world by storm by offering unlimited, free music. How? By creating a peer-to-peer network where users could share media files.
+In 1999, Napster took the world by storm by offering unlimited, free music. Record labels weren't pivoting to a new business model (yet). Users could share media files freely because Napster's peer-to-peer network removed the barriers to doing so.
 
-What followed was a period of great innovation in P2P technology. Exciting ideas and companies sprouted: Gnutella, Kazaa, MojoNation, BitTorrent, Skype, and many more. 
+What followed was a period of great innovation in P2P technology. Exciting ideas and companies sprouted: Gnutella, Kazaa, MojoNation, BitTorrent, Skype, and many more.
 
-Some of these projects appealed to hardcore technologists on ideological grounds. The ones that won mass markets did so on their merits. Skype and BitTorrent broke though because their P2P architectures enabled novel, better services.
+Some of these projects appealed to hardcore technologists on ideological grounds. The ones that won mass markets did so on their merits. Like Napster, Skype and BitTorrent broke though because their P2P architectures enabled novel, valuable services.
 
 This era ended partially under the weight of legal scrutiny. Much of the sharing done on P2P file-sharing systems was illegal. The resulting stigma suppressed P2P innovation, but competitive forces also played a role.
 
 Client-server architectures lend themselves to centralized control and monetization. Centralized services aggregated more and more value on the web. Profits drove a flywheel of investment and hyper-scale growth for years to come.
 
-This P2P summer proved that projects could win *with* their P2P architectures, not in spite of them. It demonstrated the possible. The next generation of P2P innovators would take note.
+This P2P summer proved that projects could win *with* their P2P architectures, not in spite of them. These projects demonstrated the possible. With time and technological progress, P2P would return to make an even bigger impact.
 
-## The IPFS story (just an outline currently)
+## The IPFS story
 
-[Juan Benet](https://avatars0.githubusercontent.com/u/138401?s=400&v=4), the founder/CEO of Protocol Labs and creator of the IPFS project, is one such innovator inspired by this era.
+[Juan Benet](https://avatars0.githubusercontent.com/u/138401?s=400&v=4) was a child of this previous summer. He experienced the power of P2P networks first hand growing up. When he studied Computer Science at Stanford, he took special interest in distributed networks.
 
-So, in 2013 when...
+In 2013, Juan was working on a project aimed at a different passion–scientific innovation. Inspiration struck. The tools used for sharing and versioning large datasets were inefficient and error-prone. Worse, this type of human knowledge was too often centralized behind a paywall. With his background in software development and P2P systems, he knew there was a better way.
 
-2013
-Yearly Theme = Inspiration
-Identification of problem: sharing and versioning of scientific data sets
-We have Git for versioning.
-We have BitTorrent for sharing large files.
-Why not a combination?
-“dataset package manager”
-Also, capitalize on innovations in cryptography & building open networks
-The idea for the IPFS Project and companion project Filecoin is born
-Question for IPFS team member/Juan
-When did it become clear that IPFS had far greater implications/uses than being a dataset package manager? Right away or progressively as it was worked on?
+[Git](https://git-scm.com/) manages software versioning and collaboration through a data-linking structure known as a [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree). Git's data-linking structure is useful across many data types–not just code. Juan recognized that combining this concept with the P2P file-sharing structure of [BitTorrent](https://www.bittorrent.com/) would be powerful: functional, secure information sharing without centralized barriers. This could transform the world far beyond scientific datasets.
+
+The IPFS project was born.
+
+Juan went to work fleshing out his idea... Joined YC... Published the IPFS Whitepaper(https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf)... Recruited a team... Started coding...
+
+---
 
 2014
 
@@ -145,4 +141,3 @@ End of Year | IPFS Core Team | IPFS Contributors | IPFS Network
 2017 | | |
 2018 | | |
 2019 | | |
-
