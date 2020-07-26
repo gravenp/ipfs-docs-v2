@@ -3,141 +3,57 @@ title: History
 sidebarDepth: 0
 issueUrl: https://github.com/ipfs/website/issues/352
 description: Learn about the history of IPFS, the InterPlanetary File System.
-related:
-  'Video: Juan Benet explains the IPFS alpha': https://www.youtube.com/watch?v=skMTdSEaCtA
-  'IPFS draft whitepaper': https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf
-  'Video: Decentralizing the Web with the InterPlanetary File System (Epicenter Podcast)': https://www.youtube.com/watch?v=erB7i6Uc4DM
-  "Article: It's time for the distributed web — September 2015 (Neocities)": https://blog.neocities.org/blog/2015/09/08/its-time-for-the-distributed-web.html
 ---
-
 # History of the IPFS project
 
 Like [Westeros](https://gameofthrones.fandom.com/wiki/Westeros), peer-to-peer (P2P) technology has experienced years-long winters and summers. There have been periods of great excitement and growth. Other times, P2P innovation has gone into hibernation.
 
-Tim Berners-Lee first envisioned the World Wide Web with P2P concepts. The web did not evolve true to that vision. Centralized, client-server architectures dominate today’s web.
+Tim Berners-Lee first envisioned the World Wide Web with P2P concepts. The emergent properties of the web did not evolve true to that vision. Centralized, client-server architectures dominate today’s web.
 
-The [IPFS Project](https://github.com/ipfs/ipfs) aims to return the web to its P2P roots–making the web faster, safer, and more open.
+The [IPFS Project](https://github.com/ipfs/ipfs) aims to return the web to its P2P roots: making the web faster, safer, and more open.
 
 ## A P2P summer (1999~2003)
 
-In 1999, Napster took the world by storm by offering unlimited, free music. Record labels weren't pivoting to a new business model (yet). Users could share media files freely because Napster's peer-to-peer network removed the barriers to doing so.
+In 1999, Napster took the world by storm by offering unlimited, free music. Record labels hadn't pivoted to a new business model (yet). Users were sharing media files freely because Napster's peer-to-peer network removed the barriers to doing so.
 
 What followed was a period of great innovation in P2P technology. Exciting ideas and companies sprouted: Gnutella, Kazaa, MojoNation, BitTorrent, Skype, and many more.
 
-Some of these projects appealed to hardcore technologists on ideological grounds. The ones that won mass markets did so on their merits. Like Napster, Skype and BitTorrent broke though because their P2P architectures enabled novel, valuable services.
+Some of these projects appealed to technologists on ideological grounds. The projects that won mass markets did so on their merits. Like Napster, Skype and BitTorrent broke though because their P2P architectures enabled novel, valuable services.
 
-This era ended partially under the weight of legal scrutiny. Much of the sharing done on P2P file-sharing systems was illegal. The resulting stigma suppressed P2P innovation, but competitive forces also played a role.
+This era ended partially under the weight of legal scrutiny. The a significant amount of sharing on these P2P systems was of copyrighted material. The resulting stigma suppressed P2P innovation, but competitive forces also played a role.
 
 Client-server architectures lend themselves to centralized control and monetization. Centralized services aggregated more and more value on the web. Profits drove a flywheel of investment and hyper-scale growth for years to come.
 
 This P2P summer proved that projects could win *with* their P2P architectures, not in spite of them. These projects demonstrated the possible. With time and technological progress, P2P would return to make an even bigger impact.
 
-## The IPFS story
+## The IPFS story (2013 - Today)
 
-[Juan Benet](https://avatars0.githubusercontent.com/u/138401?s=400&v=4) was a child of this previous summer. He experienced the power of P2P networks first hand growing up. When he studied Computer Science at Stanford, he took special interest in distributed networks.
+[Juan Benet](https://github.com/jbenet) grew up in this previous P2P summer. He experienced the power of P2P networks first hand. When he studied Computer Science at Stanford, he took special interest in distributed networks.
 
-In 2013, Juan was working on a project aimed at a different passion–scientific innovation. Inspiration struck. The tools used for sharing and versioning large datasets were inefficient and error-prone. Worse, this type of human knowledge was too often centralized behind a paywall. With his background in software development and P2P systems, he knew there was a better way.
+In 2013, Juan was working on a project aimed at another passion–scientific innovation. Inspiration struck. The tools used for sharing and versioning large datasets were inefficient and error-prone. Worse, this type of human knowledge was too often centralized behind a paywall. With his background in software development and P2P systems, he knew there was a better way.
 
 [Git](https://git-scm.com/) manages software versioning and collaboration through a data-linking structure known as a [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree). Git's data-linking structure is useful across many data types–not just code. Juan recognized that combining this concept with the P2P file-sharing structure of [BitTorrent](https://www.bittorrent.com/) would be powerful: functional, secure information sharing without centralized barriers. This could transform the world far beyond scientific datasets.
 
 The IPFS project was born.
 
-Juan went to work fleshing out his idea... Joined YC... Published the IPFS Whitepaper(https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf)... Recruited a team... Started coding...
+As ambitious as IPFS was, Juan's vision didn't stop there. He founded Protocol Labs in May 2014 to support fundamental research, development, and deployment of infrastructure for open networks (like the internet), with IPFS and its complementary incentivization layer, [Filecoin](https://filecoin.io/), as the first projects. Protocol Labs was modeled to be like an independent [Bell Labs](https://www.bell-labs.com/about/history-bell-labs/) (outside of the IPFS ecosystem, Protocol Labs has since spawned numerous projects including [Coinlist](https://coinlist.co/), [The SAFT Project](https://saftproject.com/), and [SourceCred](https://sourcecred.io/)).
 
----
+Protocol Labs entered the [Y Combinator Summer 2014 Class](https://www.ycombinator.com/companies/). Juan got to work writing code and the [IPFS white paper](https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf).
 
-2014
+The white paper was published in July 2014. It caught the attention of P2P and internet ethusiasts including Jeromy Johnson (aka [whyrusleeping](https://github.com/whyrusleeping)). "Why" and other early contributors shared Juan's vision for a distributed, uncensorable, and permissionless file system. They worked nights, weekends, and initially for free because they believed in the positive impact that open networks like IPFS could have on the world.
 
-* Theme = Laying Foundations
-  * From Juan on [YC Podcast](https://blog.ycombinator.com/ipfs-coinlist-and-the-filecoin-ico-with-juan-benet-and-dalton-caldwell/): “Okay, great, it’s 2013, ’14, at the time. We have to go back and rewrite tons of normal peer-to-peer stuff that could have been written 10 years before, mostly because the language and tooling had changed, we wanted to do a few different things. We couldn’t reuse a whole bunch of the libraries that were out there, or the libraries made a whole bunch of assumptions about reality that were broken. Very famously, a lotta people, just from the engineering perspective, things like assuming that you are gonna be working on top of TCP and that the port that you have is a TCP port, and that it’s not UDP port or whatever, or even that you don’t have some other transport, right away can make a library completely unusable for a project years down the road.”
-* May 2014 - Protocol Labs is founded to support fundamental research, development, and deployment of infrastructure for open networks (like the internet)
-  * Modeled to be like an independent Bell Labs
-* June 2014 - Protocol Labs enters the [Y Combinator Summer 2014 Class](https://www.ycombinator.com/companies/)
-* June 2014 - [v3 Draft IPFS Whitepaper](https://github.com/ipfs/papers/raw/master/ipfs-cap2pfs/ipfs-p2p-file-system.pdf) is published
-* Questions for an IPFS team member
-  * When did the first contributors join Juan?
-  * Did they start as PL employees or as open-source contributors?
-    * https://github.com/whyrusleeping
-    * https://github.com/daviddias
-    * What drew them to IPFS and how did they discover it?
-What were the most memorable challenges in “rewriting old p2p libraries?”
-Can the required library changes be summarized in a theme (e.g. more modularity)?
-What were the major assumptions that needed to be reworked?
-After YC, what changed, if anything?
-It appears that both the Go and JS implementations of IPFS were started in mid-2014.
-Did the team explore both as potential initial releases? Was Go eventually prioritized by the core team?
+Juan, Why, and other contributors spent many nights staying up too late and eating fast food in Juan's living room to create the alpha release of [go-ipfs](https://github.com/ipfs/go-ipfs/blob/master/CHANGELOG.md#023---2015-03-01). IPFS was ready to begin its growth journey in the open.
 
-2015
+In the summer of 2015, the small but growing IPFS team (5~6 full-time contributors) settled into a co-working space in Seattle. They hammered out improvements to the Go and JavaScript implementations of IPFS as interest in the project grew. Satoshi Nakamoto's 2009 [Bitcoin white paper](https://bitcoin.org/bitcoin.pdf) had ushered in a renaissance around P2P networks that was now in full swing. IPFS gained usage in the [Ethereum](https://ethereum.org/) and wider blockchain communities. In September 2015, Neocities became the first major site to [implement IPFS in production](https://blog.neocities.org/blog/2015/09/08/its-time-for-the-distributed-web.html).
 
-* Theme = Hello, World!
-* February 2015 - Alpha release of go-ipfs
-* September 2015 - Neocities becomes the first major site to [implement IPFS in production](https://blog.neocities.org/blog/2015/09/08/its-time-for-the-distributed-web.html)
-* Questions for an IPFS team member
-  * What were the lessons learned and immediate feedback from the alpha release?
-  * What did the recruiting and onboarding of collaborators/power users of IPFS look like?
-  * Were new users like Neocities contributing to the core with code or just feedback?
-  * What did progress look like in alternative IPFS implementations?
-  * Python appears to have been started in April 2015–community driven?
-  * What was the release date of JS alpha implementation?
+The work done in Seattle and the lessons learned working with Neocities culminated in the 0.4.0 release of go-ipfs in April 2016. The improvements of 0.4.0 transitioned IPFS from an "exicitng demo" to a genuinely useful tool for early adopters.
 
-2016
+The project saw futher technical and community growth in 2016. [libp2p](https://libp2p.io/), [Multiformats](https://multiformats.io/), and [IPLD](https://ipld.io/) were spun out as seperate projects from IPFS. OpenBazaar began integrating [IPFS](https://bitcoinmagazine.com/articles/openbazaar-integrating-interplanetary-file-system-to-help-keep-stores-open-longer-1460660998) into their decentralized online marketplace. The IPFS team attended and hosted numerous community gatherings highlighted by the [Decentralized Web Summit](https://2016.decentralizedweb.net/).
 
-* Theme = Modularization
-* April 2016 - OpenBazzar integrating with IPFS (Source)
-* June 2016 - libp2p becomes a spin-off project (based on Github initial commit)
-* July 2016- Multiformats becomes a spin-off project (based on Github initial commit)
-* October 2016 - IPLD becomes a spin-off project (based on Github initial commit)
-* Questions for an IPFS team member
-  * What went into the decisions to make libp2p, Multiformats, and IPLD separate projects?
-  * Was this always the plan in time or were there specific events that drove the change? When?
-  * What were the organizational changes made to support the split projects?
-  * What did adoption and community engagement look like at this point?
+Two watershed moments in 2017 validated the growing excitement around IPFS. The first was jumpstarted by a passionate individual with an idea–fittingly enough for a P2P technology like IPFS. Jakub Sztandera (aka [Kubuxu](https://github.com/Kubuxu)), an IPFS software engineer, took it upon himself to download Turkish Wikipedia and [put the snapshot onto IPFS](https://blog.ipfs.io/24-uncensorable-wikipedia/) in response to state censorship. This undertaking exemplified the project's values. An energized team and community rallied around the use case to deliver new performance upgrades to IPFS. The second major event was Protocol Labs' $205.8M [Filecoin Token Sale](https://coinlist.co/filecoin). With significant funding and a reinforced sense of purpose, Protocol Labs' and IPFS's ambitious founding visions were in reach, but not yet realized.
 
-2017
+With great power comes great responsibility, according to [Uncle Ben](https://en.wikipedia.org/wiki/Uncle_Ben#%22With_great_power_comes_great_responsibility%22). So in 2018, IPFS entered the next phase of its maturation. The project needed to deliver on its ideological and technical advantages over traditional client-server methods at scale. As seen in previous P2P summers, theoretical advantages must translate to tangible developer and user benefits to win the mass market. With a growing team, multiple interdependent projects, and an ecosystem dependent users and partners, the team began developing, sharing, and excuting product roadmaps to maturity.
 
-* Theme = Maturing technology?
-* April 2017 - Snapshot of Turkish Wikipedia published to IPFS due to state censoring
-* Questions for an IPFS team member
-  * Did the ICO/crypto craze have a tangible effect on IPFS contributions and interest?
-  * Are there any major technical initiatives started or delivered that I’m missing? Is it accurate to say that this was a time of focus on maturing the technology?
+The drive to IPFS's product vision realization and mass market adoption continues today. The IPFS network grew x30 in 2019. The [first IPFS Camp](https://camp.ipfs.io/) in Barcelona inspired a [successful collaboration](https://blog.ipfs.io/2020-02-14-improved-bitswap-for-container-distribution/) with one of the biggest, most innovative corporations in world, Netflix. The April 2020 [go-ipfs 0.5.0 release](https://blog.ipfs.io/2020-04-28-go-ipfs-0-5-0/) provided the biggest performance and reliability upgrades to the network yet.
 
-2018
-
-* Theme = Maturing/growing team?
-* Questions for an IPFS team member
-  * Stories from the Rivendell house & team at this time?
-  * What did the team structure look like at this point?
-  * Did the success of the Filecoin ICO drive major changes/growth?
-  * If not 2018, when did it feel like the small team leveled up to something else?
-  * When did the management/coordination/recruiting of non-PL contributors become a "significant" effort?
-
-2019
-
-* Theme = Adoption
-* Roadmap priority = Package Managers
-* June 2019 - First IPFS Camp - Barcelona
-* After IPFS Camp - Collaboration with Netflix
-* x30 Network Growth!
-* Questions for an IPFS team member
-  * How was planning done before the 2019 Roadmap (I don’t see previous roadmap versions on Github)?
-  * Was the single priority focus a lesson learned from previous years being spread too thin?
-  * Stories, wins, or takeaways from IPFS camp?
-
-2020
-
-* Theme = Efficiency at Scale
-* Roadmap priority = Content Routing
-* Questions for an IPFS team member
-  * What is the most exciting opportunity for IPFS growth/maturation this year?
-
-## Stats dump (if available)
-
-End of Year | IPFS Core Team | IPFS Contributors | IPFS Network
------------ | -------------- | ----------------- | ------------
-2013 | 1 (Juan) | 0 | 0
-2014 | | |
-2015 | | |
-2016 | | |
-2017 | | |
-2018 | | |
-2019 | | |
+IPFS has come a long way in the journey to create a more efficient, secure, and resilient web to preserve and grow humanity’s knowledge. The beautiful thing is, that journey is neverending. This is still just the beginning!
